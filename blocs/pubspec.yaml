@@ -1,0 +1,31 @@
+name: blocs
+description: "A new Flutter module project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-131.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  repository:
+    path: ../repository
+
+  cupertino_icons: ^1.0.2
+  bloc: ^8.1.1
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  module:
+    androidX: true
+    androidPackage: com.example.blocs
+    iosBundleIdentifier: com.example.blocs
