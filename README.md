@@ -44,3 +44,6 @@ then run this command to generate the app bundle
 then run this command to generate the app bundle
 
 * flutter build appbundle --release --obfuscate --split-debug-info=/Users/asim/Desktop/clangnodes/release --no-tree-shake-icons --no-shrink --target-platform android-arm64
+
+
+* https://medium.com/dvt-engineering/fun-with-flutter-bloc-edb3f7ee2611
